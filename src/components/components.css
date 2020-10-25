@@ -1,0 +1,27 @@
+.icon {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  cursor: pointer;
+}
+
+.icon > .MuiSvgIcon-root {
+  font-size: 30px;
+  margin: auto;
+}
+
+.icon > p {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  display: none;
+  margin: auto;
+  font-size: small;
+}
+
+.icon:hover > p {
+  display: inline;
+}
+
+.icon--active > p {
+  display: inline-flex !important;
+}
